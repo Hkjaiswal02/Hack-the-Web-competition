@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
         <div className="flex items-center gap-4 justify-center md:justify-start">
           <img
-            src="/techspire-logo.png"
+            src="/logo.png"
             alt="Techspire Logo"
             className="w-20 h-20 object-contain"
           />
