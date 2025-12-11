@@ -18,11 +18,11 @@ export default function App() {
       <Navbar theme={theme} setThemeMode={setThemeMode} />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/resources" element={<ResourcePage />} />
-        <Route path="/team" element={<TeamPage />} /> */}
+        <Route path="/team" element={<TeamPage />} />
       </Routes>
       <Footer />
     </div>
