@@ -1,7 +1,7 @@
 import React from "react";
 
-const EventsPage = () => {
+const Contact = () => {
   return <div></div>;
 };
 
-export default EventsPage;
+export default Contact;

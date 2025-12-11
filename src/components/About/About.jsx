@@ -5,21 +5,19 @@ export const About = () => (
       <div className="lg:col-span-2">
         <h2 className="text-2xl font-bold">About TECHSPIRE</h2>
         <p className="mt-4 text-white ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-          dolorum nemo provident laborum quaerat numquam est eveniet, maxime
-          commodi temporibus tempore modi atque reiciendis! Non itaque
-          praesentium voluptatibus libero, dolore dolor repellendus aliquid
-          neque nostrum, earum, repudiandae sequi. Provident aliquam quae
-          voluptates deserunt nam a ex illum, excepturi dicta natus praesentium
-          qui officiis obcaecati, assumenda ipsam fuga magnam molestiae,
-          perferendis quibusdam corporis! Consequatur suscipit eos nesciunt
-          quasi odit id officiis ducimus delectus, perferendis perspiciatis.
-          Laborum veritatis quidem provident nisi placeat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          fugiat amet error, eveniet hic fuga incidunt quae laudantium neque
+          sint, accusamus praesentium? Inventore porro voluptas distinctio
+          voluptatibus corporis nihil autem, odit veritatis blanditiis. Officia
+          cupiditate perferendis excepturi iste necessitatibus! Eveniet voluptas
+          praesentium error id nulla eius tempora assumenda autem et provident
+          nemo vitae voluptatibus, alias officia repellat harum vel fugiat, sunt
+          expedita obcaecati libero? Ullam magni ut aliquid sit facere?
         </p>
         <ul className="mt-6 space-y-3 text-white">
-          <li>• Lorem, ipsum dolor.</li>
-          <li>• Project sprints and open-source contributions</li>
-          <li>• Mentorship and career prep</li>
+          <li> Lorem ipsum dolor sit.</li>
+          <li> Lorem ipsum dolor sit.</li>
+          <li> Lorem ipsum dolor sit.</li>
         </ul>
       </div>
       <div className="w-full flex justify-center lg:justify-end">

@@ -28,6 +28,7 @@ export const Navbar = ({ theme, setThemeMode }) => {
               <span className="font-bold text-lg tracking-wide">TECHSPIRE</span>
             </Link>
 
+            {/* Desktop Nav */}
             <nav className="hidden md:flex items-center space-x-6">
               {navItems.map(({ name, path }) => (
                 <NavLink
@@ -43,25 +44,34 @@ export const Navbar = ({ theme, setThemeMode }) => {
                 </NavLink>
               ))}
             </nav>
+
+            {/* Right Section */}
             <div className="flex items-center gap-3">
+              {/*Desktop Toggle Icon */}
               <button
                 onClick={() => setThemeMode(!theme)}
                 className="hidden md:flex p-2 text-xl rounded-md hover:scale-110 transition"
               >
                 {theme ? <MdLightMode /> : <MdDarkMode />}
               </button>
+
+              {/* Member Button - Desktop */}
               <button
                 onClick={() => setMemberPortalOpen(true)}
                 className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-md bg-linear-to-r from-blue-600 to-green-400 text-white font-medium hover:scale-105 transition"
               >
                 Member
               </button>
+
+              {/*Mobile Toggle Icon */}
               <button
                 onClick={() => setThemeMode(!theme)}
                 className="md:hidden p-2 text-xl rounded-md hover:scale-110 transition"
               >
                 {theme ? <MdLightMode /> : <MdDarkMode />}
               </button>
+
+              {/* Mobile Menu Button */}
               <button
                 className="md:hidden p-2 rounded-md focus:ring-2 focus:ring-blue-400"
                 onClick={() => setOpen((o) => !o)}
@@ -73,6 +83,7 @@ export const Navbar = ({ theme, setThemeMode }) => {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         {open && (
           <div className="md:hidden bg-gray-800/70 border-t backdrop-blur-sm">
             {navItems.map(({ name, path }) => (
@@ -103,6 +114,7 @@ export const Navbar = ({ theme, setThemeMode }) => {
         )}
       </header>
 
+      {/* Member Modal */}
       {memberPortalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <div

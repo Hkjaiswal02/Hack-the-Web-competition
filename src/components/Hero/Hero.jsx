@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
-import "./Hero.css";
 import SlideOnScroll from "../ScrollOnScroll";
 
 export const Hero = () => {
@@ -19,19 +18,19 @@ export const Hero = () => {
             <path d="M12 0l8 4v8l-8 4-8-4V4z" />
           </svg>
         </div>
-        {/* <SlideOnScroll direction="left"> */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
-          Welcome to TECHSPIRE
-        </h1>
-        {/* </SlideOnScroll> */}
+        <SlideOnScroll direction="left">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
+            Welcome to TECHSPIRE
+          </h1>
+        </SlideOnScroll>
 
-        {/* <SlideOnScroll direction="right"> */}
-        <p className="text-gray-300 max-w-2xl text-base md:text-xl ">
-          We are a student-run technical club focused on web, AI, cloud, and
-          open-source collaboration. Join workshops, projects, hackathons, and a
-          community that ships real products.
-        </p>
-        {/* </SlideOnScroll> */}
+        <SlideOnScroll direction="right">
+          <p className="text-gray-300 max-w-2xl text-base md:text-xl ">
+            We are a student-run technical club focused on web, AI, cloud, and
+            open-source collaboration. Join workshops, projects, hackathons, and
+            a community that ships real products.
+          </p>
+        </SlideOnScroll>
 
         <div className="mt-6 flex flex-wrap justify-center gap-3 w-full">
           <a
