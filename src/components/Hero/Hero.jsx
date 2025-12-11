@@ -34,7 +34,7 @@ export const Hero = () => {
 
         <div className="mt-6 flex flex-wrap justify-center gap-3 w-full">
           <a
-            href="#events"
+            href="/events"
             className="inline-flex items-center px-5 py-3 rounded-md bg-linear-to-r from-blue-600 to-green-400 text-white font-medium hover:scale-105 transition-all duration-300 ease-in-out"
           >
             See Events
