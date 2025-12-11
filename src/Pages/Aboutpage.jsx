@@ -64,7 +64,7 @@ function Aboutpage() {
               Message from the Club Head
             </h2>
             <h3 className="text-lg text-blue-400 font-semibold mb-3">
-              Bias Bhadra — Founder & Lead Coordinator
+              Bias Bhadra — Chairman
             </h3>
             <p className="text-gray-300 leading-relaxed mb-4">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
