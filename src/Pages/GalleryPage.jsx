@@ -1,8 +1,9 @@
 import img1 from "../assets/Images/gallery1.jpg";
 import img2 from "../assets/Images/gallery2.jpg";
+import img3 from "../assets/Images/gallery3.jpg";
 import SlideOnScroll from "../components/ScrollOnScroll";
 const GalleryPage = () => {
-  const images = [img1, img2];
+  const images = [img1, img2, img3];
   return (
     <section className="min-h-screen bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-10">
       <div className="max-w-7xl mx-auto">
