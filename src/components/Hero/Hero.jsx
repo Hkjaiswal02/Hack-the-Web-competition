@@ -80,10 +80,6 @@ export const Hero = () => {
 
           <div className="relative bg-black text-white rounded-lg shadow-lg max-w-md w-full p-6 z-10">
             <h3 className="text-lg font-semibold">Member Portal</h3>
-            <p className="text-sm text-gray-400 mt-2">
-              This is a frontend demo. Integrate real Backend later.
-            </p>
-
             <form
               className="mt-4 grid gap-3"
               onSubmit={(e) => {
@@ -98,7 +94,6 @@ export const Hero = () => {
                 placeholder="Name"
                 className="p-3 rounded border bg-gray-900 text-white"
               />
-
               <input
                 required
                 type="email"
@@ -117,7 +112,6 @@ export const Hero = () => {
                 <option className="text-white">2023-2027</option>
                 <option className="text-white">2024-2028</option>
               </select>
-
               <button
                 type="submit"
                 className="px-4 py-2 bg-blue-600 text-white rounded hover:scale-105 transition cursor-pointer"
@@ -125,7 +119,6 @@ export const Hero = () => {
                 Submit
               </button>
             </form>
-
             <button
               onClick={() => setMemberPortalOpen(false)}
               className="absolute top-3 right-3 p-2 rounded hover:bg-gray-700 hover:text-red-500"

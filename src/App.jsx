@@ -1,15 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-
 import { Navbar } from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-
 import HomePage from "./Pages/Homepage";
 import AboutPage from "./Pages/Aboutpage";
 import EventsPage from "./Pages/EventsPage";
 import GalleryPage from "./Pages/GalleryPage";
 import ResourcePage from "./Pages/ResourcePage";
-import TeamPage from "./Pages/Team";
-import { useEffect, useState } from "react";
+import TeamPage from "./Pages/TeamPage";
+import { useState } from "react";
 export default function App() {
   const [theme, setThemeMode] = useState(false);
 
