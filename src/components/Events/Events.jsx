@@ -1,18 +1,23 @@
 import SlideOnScroll from "../ScrollOnScroll";
 import SlideUpDown from "../SlideUpDown";
+import { FaLocationDot } from "react-icons/fa6";
+
 const Events = () => {
   const upcomingEvents = {
     1: {
       name: "Solve-the-Code",
       title: "Learn, build & explore with our guided workshops and hackathons.",
+      location: "Language Lab",
     },
     2: {
       name: "Tech knowledge workshops",
       title: "Learn, build & explore with our guided workshops and hackathons.",
+      location: "Language Lab",
     },
     3: {
       name: "Hackathons",
       title: "Learn, build & explore with our guided workshops and hackathons.",
+      location: "Language Lab",
     },
   };
   return (
@@ -32,6 +37,10 @@ const Events = () => {
               <h3 className="text-xl font-semibold text-teal-300 mb-2">
                 {value.name}
               </h3>
+              <p className="text-sm mb-3 flex items-center gap-1.5">
+                <FaLocationDot />
+                {value.location}
+              </p>
               <p className="text-gray-400">{value.title}</p>
             </div>
           </SlideOnScroll>
